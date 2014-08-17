@@ -1,0 +1,8 @@
+#ifndef	BROWSEFORFOLDER_H
+#define	BROWSEFORFOLDER_H
+
+#define	BFF_CHECK_NOT_READONLY	1
+
+CString BrowseForFolder(CWnd *pParent, LPCTSTR pszTitle, LPCTSTR pszInitDir = NULL, UINT ExtFlags = 0, UINT Flags = BIF_RETURNFSANCESTORS | BIF_RETURNONLYFSDIRS);
+
+#endif

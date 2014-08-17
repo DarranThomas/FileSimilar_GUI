@@ -1,0 +1,8 @@
+﻿Build started 21/03/2012 22:21:07.
+     1>Project "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\console\console.vcxproj" on node 3 (rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(511,5): error MSB8008: Specified platform toolset (Windows7.1SDK) is not installed or invalid. Please make sure that a supported PlatformToolset value is selected.
+     1>Done Building Project "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\console\console.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.05

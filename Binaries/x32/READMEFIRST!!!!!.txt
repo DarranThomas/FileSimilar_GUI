@@ -1,0 +1,1 @@
+This 32 bit GUI only works with ONE thread - the 64 bit gui works with an number of threads

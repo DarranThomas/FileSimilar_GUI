@@ -1,0 +1,210 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\SimilaritiesGUI.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SimilaritiesGUI.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SIMILARITIESGUI_DIALOG DIALOGEX 0, 0, 566, 351
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SimilaritiesGUI"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Original File Set:",IDC_STATIC,3,3,64,8
+    EDITTEXT        IDC_EDIT_FOLDER1,3,14,251,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_FOLDER1,255,14,14,12
+    RTEXT           "Wildcard: ",IDC_STATIC,121,3,64,8
+    EDITTEXT        IDC_EDIT_WILDCARD_FOLDER1,189,1,65,12,ES_AUTOHSCROLL
+    LTEXT           "Suspect File Set:",IDC_STATIC,3,40,64,8
+    EDITTEXT        IDC_EDIT_FOLDER2,3,51,251,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_FOLDER2,255,51,14,12
+    RTEXT           "Wildcard: ",IDC_STATIC,121,40,64,8
+    EDITTEXT        IDC_EDIT_WILDCARD_FOLDER2,189,38,65,12,ES_AUTOHSCROLL
+    LTEXT           "Output Folder:",IDC_STATIC,3,78,64,8
+    EDITTEXT        IDC_EDIT_OUTPUT_FOLDER,3,89,251,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON_BROWSE_OUTPUT_FOLDER,255,89,14,12
+    GROUPBOX        "",IDC_STATIC,279,0,283,144
+    LTEXT           "Excluded Language Keyword List:",IDC_STATIC,289,8,125,8
+    COMBOBOX        IDC_COMBO_KEYWORD_LIST,289,19,125,322,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Threads:",IDC_STATIC,289,40,32,8
+    COMBOBOX        IDC_COMBO_THREADS,289,51,36,208,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Search Length: ",IDC_STATIC,350,40,64,8
+    EDITTEXT        IDC_EDIT_SEARCH_LENGTH,350,51,64,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Remove Delimiters",IDC_CHECK_REMOVE_DELIMITERS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,289,74,82,8
+    CONTROL         "Remove New Lines",IDC_CHECK_REMOVE_NEW_LINES,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,289,85,82,8
+    CONTROL         "Show Progress",IDC_CHECK_SHOW_PROGRESS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,289,96,82,8
+    LTEXT           "Threshold:",IDC_STATIC,378,72,46,8
+    EDITTEXT        IDC_EDIT_THRESHOLD,378,83,36,12,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "%",IDC_STATIC,416,85,8,8
+    CONTROL         "Ignore near 0% similarities",IDC_CHECK_IGNORE_0_SIMILARITIES,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,289,131,125,8
+    LTEXT           "Excluded Results List:",IDC_STATIC,428,8,125,8
+    LISTBOX         IDC_LIST_EXCLUDE,428,19,125,96,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "RELOAD LISTS",IDC_BUTTON_RELOAD,428,119,126,20
+    PUSHBUTTON      "START",IDC_BUTTON_START,3,109,132,20
+    PUSHBUTTON      "STOP",IDC_BUTTON_STOP,137,109,132,20
+    CONTROL         "",IDC_PROGRESS_CURRENT,"msctls_progress32",0x0,3,130,266,7
+    CONTROL         "",IDC_PROGRESS_TOTAL,"msctls_progress32",0x0,3,137,266,7
+    CTEXT           "XXX",IDC_STATIC_LOG,3,148,266,8
+    CTEXT           "XXX",IDC_STATIC_ESTIMATED_TIME,288,148,266,8
+    EDITTEXT        IDC_EDIT_LOG,3,160,559,160,ES_MULTILINE | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Comparison Results:",IDC_STATIC,3,324,125,8,SS_ENDELLIPSIS
+    COMBOBOX        IDC_COMBO_COMPARISION_RESULTS,3,335,190,262,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "General Summary:",IDC_STATIC,220,324,125,8
+    COMBOBOX        IDC_COMBO_GENERAL_SUMMARY,220,335,190,262,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "SimilaritiesGUI.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "SimilaritiesGUI.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SIMILARITIESGUI_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 559
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 344
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\SimilaritiesGUI.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

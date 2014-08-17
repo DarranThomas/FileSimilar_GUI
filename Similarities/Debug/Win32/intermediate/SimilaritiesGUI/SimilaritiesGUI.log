@@ -1,0 +1,65 @@
+﻿Build started 21/03/2012 22:21:07.
+     1>Project "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\SimilaritiesGUI\SimilaritiesGUI.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.pch" /Fo"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\\" /Fd"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.pch" /Fo"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\\" /Fd"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BrowseForFolder.CPP ..\console\CRC32.cpp ..\console\FileCompare.cpp ..\console\FolderCompare.cpp ..\console\FoundInData.cpp SimilaritiesGUI.cpp SimilaritiesGUIDlg.cpp ..\console\Util.cpp
+         Util.cpp
+         SimilaritiesGUIDlg.cpp
+         SimilaritiesGUI.cpp
+         FoundInData.cpp
+         FolderCompare.cpp
+         FileCompare.cpp
+         g:\djt personal projects\my source code\file similarity gui\filesimilar_gui\similarities\console\filecompare.cpp(113) : "REMEMBER ! Maximum size of source file is limited by 0x3FFFFFFF = 0.99GB"
+         g:\djt personal projects\my source code\file similarity gui\filesimilar_gui\similarities\console\filecompare.cpp(257) : "REMEMBER ! Following is a loop of calculation of CRC32 for a string of given SearchLength. It should be paralleled."
+         g:\djt personal projects\my source code\file similarity gui\filesimilar_gui\similarities\console\filecompare.cpp(262) : "ATTENTION ! Hash file cannot exceed 4GB."
+         g:\djt personal projects\my source code\file similarity gui\filesimilar_gui\similarities\console\filecompare.cpp(822) : "ignore accidentally positive result of comparison of last one to three DWORDs which are outside file!"
+         g:\djt personal projects\my source code\file similarity gui\filesimilar_gui\similarities\console\filecompare.cpp(837) : "two absolutely different strings produces identical CRC32 values !"
+         CRC32.cpp
+         BrowseForFolder.CPP
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /I"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\\" /nologo /fo"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.res" SimilaritiesGUI.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.embed.manifest.res" "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI_manifest.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\SimilaritiesGUI.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\debug\win32 win32.lib /MANIFEST /ManifestFile:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\SimilaritiesGUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\SimilaritiesGUI.lib" /MACHINE:X86 "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.res"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.embed.manifest.res"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\BrowseForFolder.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\CRC32.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\FileCompare.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\FolderCompare.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\FoundInData.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUIDlg.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\stdafx.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\Util.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\Win32.lib"
+       Manifest:
+         Deleting file "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.embed.manifest" /manifest "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.intermediate.manifest" "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.embed.manifest.res" "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI_manifest.rc" 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\SimilaritiesGUI.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\debug\win32 win32.lib /MANIFEST /ManifestFile:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\SimilaritiesGUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\SimilaritiesGUI.lib" /MACHINE:X86 "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.res"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.exe.embed.manifest.res"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\BrowseForFolder.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\CRC32.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\FileCompare.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\FolderCompare.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\FoundInData.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUIDlg.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\stdafx.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\Util.obj"
+         "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\Win32.lib"
+         SimilaritiesGUI.vcxproj -> G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\SimilaritiesGUI.exe
+       FinalizeBuildStatus:
+         Deleting file "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.unsuccessfulbuild".
+         Touching "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\Debug\Win32\intermediate\SimilaritiesGUI\SimilaritiesGUI.lastbuildstate".
+     1>Done Building Project "G:\djt personal projects\MY SOURCE CODE\File SIMILARITY GUI\FileSimilar_GUI\Similarities\SimilaritiesGUI\SimilaritiesGUI.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.34
